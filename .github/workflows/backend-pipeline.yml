@@ -34,4 +34,4 @@ jobs:
 
       - name: Deploy to AWS ECS Fargate
         run: |
-          aws ecs update-service --cluster three-tier-app-task --service three-tier-service --force-new-deployment
+          aws ecs update-service --cluster three-tier-app-cluster --service three-tier-service --force-new-deployment
